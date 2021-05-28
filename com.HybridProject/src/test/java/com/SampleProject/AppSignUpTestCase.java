@@ -26,7 +26,7 @@ public class AppSignUpTestCase extends BaseConfiguration {
 	  
 	  
 	 signup.launchbrowser().clicksignupbutton().name().enteremailaddress().enterusername().enterpassword().clicksubmitbutton().closetest();
-	  
+	  System.out.println("launch browser"+"clicbutton");
 	  
   }
 }

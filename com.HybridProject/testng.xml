@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+ 
+
+  
+  
+  <test  name="contactpage">
+    <classes>
+      <class name="com.SampleProject.AppBasicContactFormTestCase"/>
+    </classes>
+  </test> 
+  
+  <test  name="loginpage">
+    <classes>
+      <class name="com.SampleProject.AppLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test  name="AppSignUp">
+    <classes>
+      <class name="com.SampleProject.AppSignUpTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+</suite> <!-- Suite -->

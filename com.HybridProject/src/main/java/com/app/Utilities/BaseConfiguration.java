@@ -43,6 +43,7 @@ public abstract class BaseConfiguration extends Objectrep
 				
 				System.setProperty(prop.getProperty("browsersetup"), prop.getProperty("browserdriver"));
 				driver=new ChromeDriver();
+				System.out.println("launching driver");
 			}
 			else if(browsername.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver", "./appDrivers/geckodriver.exe");

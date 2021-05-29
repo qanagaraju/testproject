@@ -72,6 +72,15 @@ public AppSignUp enterpassword() {
 
 
 
+
+//create statement for signup checkbox
+public AppSignUp clickcheckbox() {
+	
+	CommonUtils.clickcheckbox("id", read.getObjects().getProperty("signupcheckbox"), driver);
+	return this;
+}
+
+
 public AppSignUp clicksubmitbutton() {
 	
 	CommonUtils.clickButton("name", read.getObjects().getProperty("submit"), driver);
